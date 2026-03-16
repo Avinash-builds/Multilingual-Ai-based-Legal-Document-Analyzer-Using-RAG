@@ -1,0 +1,42 @@
+# Core Framework
+streamlit>=1.40.0
+
+# Machine Learning & NLP
+transformers>=4.45.0
+torch>=2.4.0
+sentence-transformers>=3.0.0
+
+# LangChain Ecosystem (v0.3+ supports Python 3.12+)
+langchain>=0.3.0,<0.4.0
+langchain-community>=0.3.0,<0.4.0
+langchain-huggingface>=0.1.0,<0.2.0
+langchain-text-splitters>=0.3.0,<0.4.0
+
+# Vector Store & Embeddings
+faiss-cpu>=1.8.0
+
+# PDF Processing
+PyMuPDF>=1.24.0
+
+# Data Processing
+pandas>=2.1.0
+numpy>=1.26.0
+datasets>=2.20.0
+
+# Model Training & Evaluation
+accelerate>=0.30.0
+evaluate>=0.4.0
+rouge-score>=0.1.2
+nltk>=3.8.0
+
+# Utilities
+langdetect>=1.0.9
+huggingface-hub>=0.24.0
+safetensors>=0.4.0
+sentencepiece>=0.2.0
+protobuf>=4.25.0
+
+# LLM Integration (Advanced Mode)
+google-generativeai>=0.8.0
+deep-translator>=1.11.0
+python-dotenv>=1.0.0

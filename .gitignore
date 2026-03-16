@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+myenv/
+
+# Environment & Secrets
+.env
+.myenv
+
+# OS Generated
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Generated Data
+data/rag_faiss_store/
+data/rag_faiss_store_stable/
+models/
+temp_doc.pdf
+
+# Node (if any)
+node_modules/
+package-lock.json
